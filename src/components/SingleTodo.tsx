@@ -12,6 +12,7 @@ const SingleTodo:React.FC<Props> = ({todos, todo, setTodos}) => {
     <form action="" className='todo_single'>
         <span className='todos_single--text'>{todo.todos}</span>
         <div>
+            <div></div>
         {/* <span className="icon" >
               <AiFillEdit />
         </span>
